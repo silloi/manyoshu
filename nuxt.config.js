@@ -21,6 +21,8 @@ export default theme({
     }],
     defaultLocale: 'ja'
   },
+  mode: 'universal',
+  target: 'static'
   // buildModules: [
   //   ['@nuxtjs/google-analytics', {
   //     id: 'UA-12301-2'
