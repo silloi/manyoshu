@@ -2,8 +2,8 @@
   "title": "萬葉集全文検索",
   "url": "https://content.nuxtjs.org",
   "logo": {
-    "light": "/logo-light.svg",
-    "dark": "/logo-dark.svg"
+    "light": "/logo.png",
+    "dark": "/logo.png"
   },
   "github": "silloi/manyoshu",
   "twitter": "@silloi93"
