@@ -1,0 +1,11 @@
+{
+  "name": "manyoshu",
+  "short_name": "manyoshu",
+  "description": "## Build Setup",
+  "icons": [],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00CD81",
+  "lang": "en"
+}
