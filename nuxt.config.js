@@ -1,7 +1,7 @@
 import theme from '@nuxt/content-theme-docs'
 
 export default theme({
-
+  ssr: false,
   loading: { color: '#48bb78' },
   generate: {
     fallback: '404.html', // for Netlify
