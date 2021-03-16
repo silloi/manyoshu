@@ -4,8 +4,7 @@ export default theme({
   ssr: false,
   loading: { color: '#48bb78' },
   generate: {
-    fallback: '404.html', // for Netlify
-    routes: ['/'] // give the first url to start crawling
+    fallback: true
   },
   i18n: {
     locales: () => [{
