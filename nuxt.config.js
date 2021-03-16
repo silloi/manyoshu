@@ -21,7 +21,6 @@ export default theme({
     }],
     defaultLocale: 'ja'
   },
-  target: 'static',
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'manyoshu',
@@ -52,12 +51,6 @@ export default theme({
     ['@nuxt/typescript-build', {
       typeCheck: false
     }],
-  ],
-
-  // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [
-    // https://go.nuxtjs.dev/content
-    '@nuxt/content',
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
