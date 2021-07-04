@@ -1,22 +1,15 @@
 {
   "name": "manyoshu",
   "version": "1.0.0",
-  "private": true,
+  "main": "index.js",
+  "repository": "git@github.com:silloi/manyoshu.git",
+  "author": "silloi <silloi1993@gmail.com>",
   "scripts": {
-    "dev": "nuxt-ts",
-    "build": "nuxt-ts build",
-    "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "dependencies": {
-    "@nuxt/content": "^1.9.0",
-    "@nuxt/content-theme-docs": "^0.8.2",
-    "@nuxt/typescript-runtime": "^2.0.0",
-    "core-js": "^3.6.5",
-    "nuxt": "^2.14.7"
-  },
+  "license": "MIT",
   "devDependencies": {
-    "@nuxt/types": "^2.14.6",
-    "@nuxt/typescript-build": "^2.0.3"
+    "vuepress": "^2.0.0-beta.21"
   }
 }
