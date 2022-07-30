@@ -1,0 +1,17 @@
+{
+  "name": "manyoshu",
+  "version": "1.0.0",
+  "description": "manyoshu",
+  "main": "index.js",
+  "repository": "git@github.com:silloi/manyoshu.git",
+  "author": "silloi <silloi1993@gmail.com>",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  }
+}
